@@ -15,10 +15,10 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "VladTFE2"
+    organization = "VladTFE3"
 
     workspaces {
-      name = "vladPipleline2"
+      name = "vlad-learn-terraform-github-actions"
     }
   }
 }
